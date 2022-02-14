@@ -15,8 +15,9 @@ All rights reserved.
 
 print(friday_)
 
-api_id = input("Enter Your API ID: \n")
-api_hash = input("Enter Your API HASH : \n")
+api_id = input("11539587: \n")
+api_hash = input("7e243ca4dbf28af17e7239a0447cc6b1 : \n")
+
 
 with Client("FridayUB", api_id=api_id, api_hash=api_hash) as bot_:
     first_name = (bot_.get_me()).first_name
